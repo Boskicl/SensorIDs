@@ -3,16 +3,13 @@ For Sensor Integration with computational devices. Can be used with Arduino, Ras
 
 # Current Sensor Libraries
 '''bash
-├── ADXL355
-│   ├── ...              
-│   ├── misc.md             # Miscellaneous information
-│   ├── usage.md            # Getting started guide
-│   └── ...  
-├── MAG3110                # Documentation files (alternatively `doc`)
-├── TCA9548A                # Table of contents
-│   ├── faq.md              # Frequently asked questions
-│   ├── misc.md             # Miscellaneous information
-│   ├── usage.md            # Getting started guide
-│   └── ...                 # etc.
-└── ...
+|-- ADXL355
+|   |-- adxl355.cpp
+|   |-- adxl355.h
+|   `-- adxl355_read.py
+|-- MAG3110
+|   `-- mag3110_reader.py
+|-- README.md
+`-- TXA9548A
+    `-- tca9548a_reader.py
 '''
